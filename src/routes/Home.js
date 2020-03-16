@@ -37,6 +37,7 @@ class Home extends Component {
             return <Movie
                 title={movie.title_english}
                 poster={movie.medium_cover_image}
+                id = {movie.id}
                 key={movie.id}
                 genres={movie.genres}
                 synopsis={movie.synopsis}/>
